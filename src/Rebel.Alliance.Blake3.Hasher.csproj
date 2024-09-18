@@ -9,12 +9,12 @@
 		<!-- Package Information -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>Rebel.Alliance.Blake3.Hasher</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<!-- Update as per your versioning strategy -->
 		<Authors>The Arctium Project</Authors>
 		<Description>This library is a re-packaging of the Blake3 Hash Alogrithm implementation that I stripped out of the suite of algos from the Arctium project found here: https://github.com/NeuroXiq/Arctium; an implementation based on the official BLAKE3 specification and reference implementation.</Description>
-		<PackageProjectUrl>https://github.com/RebelAlliance/Blake3Hasher</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/RebelAlliance/Blake3Hasher</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/Rebel-Alliance-2023/Rebel.Alliance.Blake3.Hasher</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Rebel-Alliance-2023/Rebel.Alliance.Blake3.Hasher</RepositoryUrl>
 		<PackageTags>BLAKE3;Cryptography;Hash;Hasher,.NET</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>		
 		<Company>The Arctium Project</Company>
