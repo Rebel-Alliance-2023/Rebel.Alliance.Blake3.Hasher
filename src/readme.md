@@ -46,9 +46,9 @@ This project is licensed under the MIT License.
 
 This library is a re-packaging of the Blake3 Hash Alogrithm implementation that I stripped out of the suite of algos from the Arctium project found here: https://github.com/NeuroXiq/Arctium; and implementation based on the official BLAKE3 specification and reference implementation.
 
-  Apart from the reorganization and isolation of the BLAKE3 implementation, the only changes I made were to the namespace and project name, and the addition of a NuGet package configuration and unit tests.
+  Aside from reorganizing and isolating the BLAKE3 implementation, the changes I made were specifically to the namespace and project name. I also added a NuGet package configuration and unit tests to enhance the usability and reliability of the library.
 
-  Therefore the original Author still holds copyright to the original implementation and I am grateful for the work they did to make this available.
+  Therefore, the original Author still holds the copyright to the original implementation, and I am grateful for their work in making this available.
 
 ## Contributing
 
