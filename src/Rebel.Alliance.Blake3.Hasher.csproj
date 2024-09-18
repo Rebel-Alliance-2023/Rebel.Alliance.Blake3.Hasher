@@ -12,7 +12,7 @@
 		<Version>1.0.0</Version>
 		<!-- Update as per your versioning strategy -->
 		<Authors>The Arctium Project</Authors>
-		<Description>This library is a re-packaging of the Blake3 Hash Alogrithm implementation that I stripped out of the suite of algos from the Arctium project found here: https://github.com/NeuroXiq/Arctium; and implementation based on the official BLAKE3 specification and reference implementation.</Description>
+		<Description>This library is a re-packaging of the Blake3 Hash Alogrithm implementation that I stripped out of the suite of algos from the Arctium project found here: https://github.com/NeuroXiq/Arctium; an implementation based on the official BLAKE3 specification and reference implementation.</Description>
 		<PackageProjectUrl>https://github.com/RebelAlliance/Blake3Hasher</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/RebelAlliance/Blake3Hasher</RepositoryUrl>
 		<PackageTags>BLAKE3;Cryptography;Hash;Hasher,.NET</PackageTags>
