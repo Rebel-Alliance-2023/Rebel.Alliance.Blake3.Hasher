@@ -6,17 +6,16 @@
 		<Version>1.0.0</Version>
 		<LangVersion>latest</LangVersion>
 
-
 		<!-- Package Information -->
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageId>Rebel.Alliance.Blake3.Hasher</PackageId>
 		<Version>1.0.0</Version>
 		<!-- Update as per your versioning strategy -->
 		<Authors>The Arctium Project</Authors>
-		<Description>BLAKE3 Hash Algorithm implementation for .NET</Description>
+		<Description>This library is a re-packaging of the Blake3 Hash Alogrithm implementation that I stripped out of the suite of algos from the Arctium project found here: https://github.com/NeuroXiq/Arctium; and implementation based on the official BLAKE3 specification and reference implementation.</Description>
 		<PackageProjectUrl>https://github.com/RebelAlliance/Blake3Hasher</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/RebelAlliance/Blake3Hasher</RepositoryUrl>
-		<PackageTags>BLAKE3;Cryptography;Hash;Hasher, .NET</PackageTags>
+		<PackageTags>BLAKE3;Cryptography;Hash;Hasher,.NET</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>		
 		<Company>The Arctium Project</Company>
 		<RepositoryType>git</RepositoryType>
@@ -27,8 +26,7 @@
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 
 		<!-- Optional: Embed Source Link for Debugging -->
-		<EnableSourceLink>true</EnableSourceLink>		
-		
+		<EnableSourceLink>true</EnableSourceLink>
 		
 	</PropertyGroup>
 
@@ -41,7 +39,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="docs\" />
+	  <None Remove="README.md" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Content Include="README.md">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
 	</ItemGroup>
 
 </Project>
