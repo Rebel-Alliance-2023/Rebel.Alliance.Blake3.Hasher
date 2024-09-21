@@ -1,3 +1,4 @@
+[nuget package](https://www.nuget.org/packages/Rebel.Alliance.Blake3.Hasher)
 # Rebel.Alliance.Blake3.Hasher
 
 This project is an implementation of the BLAKE3 cryptographic hash function for .NET, targeting .NET Standard 2.0.
